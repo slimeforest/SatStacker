@@ -60,6 +60,7 @@ class UpgradesViewController: UIViewController, UITableViewDataSource, UITableVi
         let ravixy = Upgrade(name: "Ravixy Super X409", multiplier: 2.5, purchaseCost: 180000, drainRate: 16, timesPurchased: 5, image: UIImage(systemName: "safari.fill")!)
         let imbath = Upgrade(name: "Imbath", multiplier: 5, purchaseCost: 10000000, drainRate: 5, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
         let mobbyx40 = Upgrade(name: "Mobbyx40", multiplier: 10, purchaseCost: 100000000, drainRate: 10, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
+        let spark = Upgrade(name: "sparkix_elite", multiplier: 89, purchaseCost: 10000, drainRate: 10, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
         
         upgradesArray.append(nabia)
         upgradesArray.append(ray)
@@ -67,6 +68,7 @@ class UpgradesViewController: UIViewController, UITableViewDataSource, UITableVi
         upgradesArray.append(ravixy)
         upgradesArray.append(imbath)
         upgradesArray.append(mobbyx40)
+        upgradesArray.append(spark)
         tableviewOutlet.reloadData()
         
     }
