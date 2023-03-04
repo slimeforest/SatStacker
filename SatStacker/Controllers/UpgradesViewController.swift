@@ -59,12 +59,14 @@ class UpgradesViewController: UIViewController, UITableViewDataSource, UITableVi
         let mobby = Upgrade(name: "Mobby x20", multiplier: 1.9, purchaseCost: 120000, drainRate: 9, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
         let ravixy = Upgrade(name: "Ravixy Super X409", multiplier: 2.5, purchaseCost: 180000, drainRate: 16, timesPurchased: 5, image: UIImage(systemName: "safari.fill")!)
         let imbath = Upgrade(name: "Imbath", multiplier: 5, purchaseCost: 10000000, drainRate: 5, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
+        let mobbyx40 = Upgrade(name: "Mobbyx40", multiplier: 10, purchaseCost: 100000000, drainRate: 10, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
         
         upgradesArray.append(nabia)
         upgradesArray.append(ray)
         upgradesArray.append(mobby)
         upgradesArray.append(ravixy)
         upgradesArray.append(imbath)
+        upgradesArray.append(mobbyx40)
         tableviewOutlet.reloadData()
         
     }
