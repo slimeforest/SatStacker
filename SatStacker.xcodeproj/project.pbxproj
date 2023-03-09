@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AFE472929B9B4B400888B69 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE472829B9B4B400888B69 /* SettingsViewController.swift */; };
+		9AFE472B29B9B4E500888B69 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFE472A29B9B4E500888B69 /* Setting.swift */; };
 		C39314C929B9958700509576 /* UIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39314C829B9958700509576 /* UIProtocol.swift */; };
 		C3985E0F29B19BC70002ED9D /* UpgradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985E0E29B19BC70002ED9D /* UpgradesViewController.swift */; };
 		C3985E1129B19CAA0002ED9D /* UpgradeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985E1029B19CAA0002ED9D /* UpgradeTableViewCell.swift */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9AFE472829B9B4B400888B69 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		9AFE472A29B9B4E500888B69 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		C39314C829B9958700509576 /* UIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProtocol.swift; sourceTree = "<group>"; };
 		C3985E0E29B19BC70002ED9D /* UpgradesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradesViewController.swift; sourceTree = "<group>"; };
 		C3985E1029B19CAA0002ED9D /* UpgradeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeTableViewCell.swift; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 			children = (
 				C3A579DB29B04EA800B3E2F1 /* GameViewController.swift */,
 				C3A579C429B04B1300B3E2F1 /* ViewController.swift */,
+				9AFE472829B9B4B400888B69 /* SettingsViewController.swift */,
 				C3985E0E29B19BC70002ED9D /* UpgradesViewController.swift */,
 			);
 			path = Controllers;
@@ -107,6 +112,7 @@
 				C3A579E129B05FB700B3E2F1 /* Upgrade.swift */,
 				C3985E1029B19CAA0002ED9D /* UpgradeTableViewCell.swift */,
 				C3A579DF29B0523400B3E2F1 /* GameBrain.swift */,
+				9AFE472A29B9B4E500888B69 /* Setting.swift */,
 				C39314C829B9958700509576 /* UIProtocol.swift */,
 			);
 			path = Models;
@@ -185,6 +191,8 @@
 			files = (
 				C3A579DC29B04EA800B3E2F1 /* GameViewController.swift in Sources */,
 				C39314C929B9958700509576 /* UIProtocol.swift in Sources */,
+				9AFE472B29B9B4E500888B69 /* Setting.swift in Sources */,
+				9AFE472929B9B4B400888B69 /* SettingsViewController.swift in Sources */,
 				C3985E0F29B19BC70002ED9D /* UpgradesViewController.swift in Sources */,
 				C3A579CB29B04B1300B3E2F1 /* SatStacker.xcdatamodeld in Sources */,
 				C3985E1129B19CAA0002ED9D /* UpgradeTableViewCell.swift in Sources */,

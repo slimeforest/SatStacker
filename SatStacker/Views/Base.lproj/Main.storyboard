@@ -78,6 +78,9 @@
                                         <rect key="frame" x="261.33333333333331" y="0.0" width="111.66666666666669" height="54.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Settings"/>
+                                        <connections>
+                                            <segue destination="JvX-gs-gWy" kind="show" id="ySB-5m-c4p"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -152,6 +155,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BhG-6l-hw8" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1904.5801526717557" y="-38.028169014084511"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gs1-W4-zEe">
+            <objects>
+                <viewController id="JvX-gs-gWy" customClass="ViewController" customModule="SatStacker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tAM-9j-6QV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="FG2-E7-Nun"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Sha-eD-7vw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T6p-dZ-ja0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2860" y="-38"/>
         </scene>
         <!--Upgrades View Controller-->
         <scene sceneID="lQH-ei-VkE">
