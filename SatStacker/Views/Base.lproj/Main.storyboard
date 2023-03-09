@@ -78,6 +78,9 @@
                                         <rect key="frame" x="261.33333333333331" y="0.0" width="111.66666666666669" height="54.333333333333336"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Settings"/>
+                                        <connections>
+                                            <segue destination="fFn-YF-Ck8" kind="show" id="gbV-DS-B9r"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -152,6 +155,35 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BhG-6l-hw8" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1904.5801526717557" y="-38.028169014084511"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="5Z6-Do-VfN">
+            <objects>
+                <tableViewController id="fFn-YF-Ck8" customClass="SettingsViewController" customModule="SatStacker" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="MXd-hz-GPN">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="UwG-wg-NCe">
+                                <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="UwG-wg-NCe" id="3Y5-j1-9eR">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="fFn-YF-Ck8" id="axp-xe-VsZ"/>
+                            <outlet property="delegate" destination="fFn-YF-Ck8" id="3jh-cX-UCH"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Jh7-hc-FO8"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="909-eY-9Il" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2921" y="-27"/>
         </scene>
         <!--Upgrades View Controller-->
         <scene sceneID="lQH-ei-VkE">
