@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C39314C929B9958700509576 /* UIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39314C829B9958700509576 /* UIProtocol.swift */; };
 		C3985E0F29B19BC70002ED9D /* UpgradesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985E0E29B19BC70002ED9D /* UpgradesViewController.swift */; };
 		C3985E1129B19CAA0002ED9D /* UpgradeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3985E1029B19CAA0002ED9D /* UpgradeTableViewCell.swift */; };
 		C3A579C129B04B1300B3E2F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A579C029B04B1300B3E2F1 /* AppDelegate.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C39314C829B9958700509576 /* UIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProtocol.swift; sourceTree = "<group>"; };
 		C3985E0E29B19BC70002ED9D /* UpgradesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradesViewController.swift; sourceTree = "<group>"; };
 		C3985E1029B19CAA0002ED9D /* UpgradeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeTableViewCell.swift; sourceTree = "<group>"; };
 		C3A579BD29B04B1300B3E2F1 /* SatStacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SatStacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +88,6 @@
 			children = (
 				C3A579DB29B04EA800B3E2F1 /* GameViewController.swift */,
 				C3A579C429B04B1300B3E2F1 /* ViewController.swift */,
-				C3985E1029B19CAA0002ED9D /* UpgradeTableViewCell.swift */,
 				C3985E0E29B19BC70002ED9D /* UpgradesViewController.swift */,
 			);
 			path = Controllers;
@@ -104,7 +105,9 @@
 			isa = PBXGroup;
 			children = (
 				C3A579E129B05FB700B3E2F1 /* Upgrade.swift */,
+				C3985E1029B19CAA0002ED9D /* UpgradeTableViewCell.swift */,
 				C3A579DF29B0523400B3E2F1 /* GameBrain.swift */,
+				C39314C829B9958700509576 /* UIProtocol.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3A579DC29B04EA800B3E2F1 /* GameViewController.swift in Sources */,
+				C39314C929B9958700509576 /* UIProtocol.swift in Sources */,
 				C3985E0F29B19BC70002ED9D /* UpgradesViewController.swift in Sources */,
 				C3A579CB29B04B1300B3E2F1 /* SatStacker.xcdatamodeld in Sources */,
 				C3985E1129B19CAA0002ED9D /* UpgradeTableViewCell.swift in Sources */,
