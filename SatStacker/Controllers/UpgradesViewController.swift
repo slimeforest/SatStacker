@@ -11,14 +11,6 @@ class UpgradesViewController: UIViewController, UITableViewDataSource, UITableVi
     
     @IBOutlet weak var tableviewOutlet: UITableView!
     
-    
-    
-    
-    
-    
-    
-    
-    
     var upgradesArray: [Upgrade] = []
 //    let upgradeNames = ["Nabia 4040", "Ray 20", "Mobby x20", "Ravixy Super X409", "Imbath"]
     
