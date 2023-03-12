@@ -46,22 +46,22 @@ class UpgradesViewController: UIViewController, UITableViewDataSource, UITableVi
     
     func loadUpgrades() {
         
-        let nabia = Upgrade(name: "Nabia 4040", multiplier: 1.05, purchaseCost: 30000, drainRate: 1, timesPurchased: 9, image: UIImage(systemName: "safari.fill")!)
-        let ray = Upgrade(name: "Ray 20", multiplier: 1.3, purchaseCost: 60000, drainRate: 4, timesPurchased: 3, image: UIImage(systemName: "safari.fill")!)
-        let mobby = Upgrade(name: "Mobby x20", multiplier: 1.9, purchaseCost: 120000, drainRate: 9, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
-        let ravixy = Upgrade(name: "Ravixy Super X409", multiplier: 2.5, purchaseCost: 180000, drainRate: 16, timesPurchased: 5, image: UIImage(systemName: "safari.fill")!)
-        let imbath = Upgrade(name: "Imbath", multiplier: 5, purchaseCost: 10000000, drainRate: 5, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
-        let mobbyx40 = Upgrade(name: "Mobbyx40", multiplier: 10, purchaseCost: 100000000, drainRate: 10, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
-        let spark = Upgrade(name: "sparkix_elite", multiplier: 89, purchaseCost: 10000, drainRate: 10, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
+//        let nabia = Upgrade(name: "Nabia 4040", multiplier: 1.05, purchaseCost: 30000, drainRate: 1, timesPurchased: 9, image: UIImage(systemName: "safari.fill")!)
+//        let ray = Upgrade(name: "Ray 20", multiplier: 1.3, purchaseCost: 60000, drainRate: 4, timesPurchased: 3, image: UIImage(systemName: "safari.fill")!)
+//        let mobby = Upgrade(name: "Mobby x20", multiplier: 1.9, purchaseCost: 120000, drainRate: 9, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
+//        let ravixy = Upgrade(name: "Ravixy Super X409", multiplier: 2.5, purchaseCost: 180000, drainRate: 16, timesPurchased: 5, image: UIImage(systemName: "safari.fill")!)
+//        let imbath = Upgrade(name: "Imbath", multiplier: 5, purchaseCost: 10000000, drainRate: 5, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
+//        let mobbyx40 = Upgrade(name: "Mobbyx40", multiplier: 10, purchaseCost: 100000000, drainRate: 10, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
+//        let spark = Upgrade(name: "sparkix_elite", multiplier: 89, purchaseCost: 10000, drainRate: 10, timesPurchased: 1, image: UIImage(systemName: "safari.fill")!)
         
-        upgradesArray.append(nabia)
-        upgradesArray.append(ray)
-        upgradesArray.append(mobby)
-        upgradesArray.append(ravixy)
-        upgradesArray.append(imbath)
-        upgradesArray.append(mobbyx40)
-        upgradesArray.append(spark)
-        tableviewOutlet.reloadData()
+//        upgradesArray.append(nabia)
+//        upgradesArray.append(ray)
+//        upgradesArray.append(mobby)
+//        upgradesArray.append(ravixy)
+//        upgradesArray.append(imbath)
+//        upgradesArray.append(mobbyx40)
+//        upgradesArray.append(spark)
+//        tableviewOutlet.reloadData()
         
     }
     
