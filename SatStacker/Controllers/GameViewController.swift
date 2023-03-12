@@ -28,14 +28,12 @@ class GameViewController: UIViewController, UIProtocol {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         gameBrain.uiDelegate = self
-        gameBrain.startGame()
-
-        
+        gameBrain.startGame(userUpgrades: [Upgrade(name: "CUM UPGRADE", category: 1, multiplier: 800, purchaseCost: 0.005, drainRate: 4, timesPurchased: 1, image: UIImage(systemName: "pencil")!)])
     }
     
     func updateUI() {
         self.timesFIRED = gameBrain.timesFired!
-        BtcAmountLabel.text = "\(timesFIRED)"
+        BtcAmountLabel.text = "\(gameBrain.btcOwned)"
     }
     
     @IBAction func grabButtonPressed(_ sender: Any) {
